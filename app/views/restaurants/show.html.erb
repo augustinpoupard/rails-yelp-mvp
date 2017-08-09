@@ -1,0 +1,6 @@
+<h1><%=@restaurant.name %></h1>
+
+<p><%=@restaurant.category %></p>
+
+<%= link_to "modifié", edit_restaurant_path%>
+<%= link_to "suppr",restaurant_path, method: :delete %>

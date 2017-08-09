@@ -1,0 +1,12 @@
+<h1>ajout de nouveau restaurants</h1>
+
+<%= form_for(@reviews) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :texte %>
+  <%= f.text_field :texte%>
+
+  <%= f.submit %>
+
+  <% end %>
